@@ -11,7 +11,7 @@ namespace PadawansTask7.Tests
             get
             {
                 yield return new TestCaseData(arg1: new string[] { "Beg", "Life", "I", "To" }, arg2: new string[] { "I", "To", "Beg", "Life" }); 
-                yield return new TestCaseData(arg1: new string[] { "", "Moderately", "Brains", "Pizza" }, arg2: new string[] { "", "Pizza", "Brains", "Moderately" });
+                 yield return new TestCaseData(arg1: new string[] { "", "Moderately", "Brains", "Pizza" }, arg2: new string[] { "", "Pizza", "Brains", "Moderately" });
                 yield return new TestCaseData(arg1: new string[] { "Longer", "Longest", "Short" }, arg2: new string[] { "Short", "Longer", "Longest" });
             }
         }
